@@ -10,8 +10,6 @@ import com.example.myroomsatu.room.DatabaseSiswa
 interface AppContainer {
     val repositoriSiswa : RepositoriSiswa
 }
-
-
 class AppContainerImpl(private val context: Context) :
     AppContainer {
 
